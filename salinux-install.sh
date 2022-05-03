@@ -40,7 +40,8 @@ Type=Application
 Terminal=true
 Name=Unifi Install
 Icon=/opt/sa-icons/unifi-app-logo.png
-Exec=lxtermial -e sudo /opt/sa-scripts/unifi-7.1.61.sh
+TryExec=su-to-root
+Exec=su-to-root -X -c /opt/sa-scripts/unifi-7.1.61.sh %F
 EOF
 )"
 echo "${unificfg}" > /usr/share/applications/UnifiInstall.desktop
