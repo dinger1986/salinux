@@ -186,5 +186,6 @@ echo "${trmmcfg}" > /usr/share/applications/TRMMInstall.desktop
 # https://patrickdomingues.com/2021/05/07/install-tp-link-omada-sdn-controller-on-ubuntu-20-04-2/
 
 # Install Filebeat
-curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-oss-7.15.1-amd64.deb
-sudo dpkg -i filebeat-oss-7.15.1-amd64.deb
+cd /tmp
+wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-oss-7.15.1-amd64.deb
+apt install ./filebeat-oss-7.15.1-amd64.deb -y
