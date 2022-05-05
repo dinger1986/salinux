@@ -163,25 +163,6 @@ EOF
 )"
 echo "${unificfg}" > /usr/share/applications/UnifiInstall.desktop
 
-# Tactical RMM script
-wget https://raw.githubusercontent.com/amidaware/tacticalrmm/master/install.sh
-mv install.sh trmm-install.sh
-chmod +x trmm-install.sh
-
-wget https://www.saashub.com/images/app/service_logos/194/2lt18chm8vc7/large.png
-mv large.png /opt/sa-icons/trmm-logo.png
-
-trmmcfg="$(cat << EOF
-[Desktop Entry]
-Type=Application
-Terminal=true
-Name=Tactical RMM Install
-Icon=/opt/sa-icons/trmm-logo.png
-Exec=/opt/sa-scripts/trmm-install.sh
-EOF
-)"
-echo "${trmmcfg}" > /usr/share/applications/TRMMInstall.desktop
-
 # Omada Script Plan
 # https://patrickdomingues.com/2021/05/07/install-tp-link-omada-sdn-controller-on-ubuntu-20-04-2/
 
