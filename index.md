@@ -9,4 +9,4 @@ or click [here](wget -qO - https://raw.githubusercontent.com/dinger1986/salinux/
 
 ### Support or Contact
 
-Having trouble with SA Linux? Check out our [discord](https://discord.gg/RSEUppKR) or [contact support](https://github.com/dinger1986/salinux/issues) and we’ll help you sort it out.
+Having trouble with SA Linux? Check out our [discord](https://discord.gg/V6tBF5Se) or [contact support](https://github.com/dinger1986/salinux/issues) and we’ll help you sort it out.
